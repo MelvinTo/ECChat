@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379FFA221B680BD70096CD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FFA211B680BD70096CD4E /* AppDelegate.swift */; };
+		379FFA241B680BD70096CD4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FFA231B680BD70096CD4E /* ViewController.swift */; };
+		379FFA271B680BD70096CD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379FFA251B680BD70096CD4E /* Main.storyboard */; };
+		379FFA291B680BD70096CD4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379FFA281B680BD70096CD4E /* Images.xcassets */; };
+		379FFA2C1B680BD70096CD4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379FFA2A1B680BD70096CD4E /* LaunchScreen.xib */; };
+		379FFA381B680BD70096CD4E /* ECChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FFA371B680BD70096CD4E /* ECChatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379FFA321B680BD70096CD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379FFA141B680BD70096CD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379FFA1B1B680BD70096CD4E;
+			remoteInfo = ECChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		379FFA1C1B680BD70096CD4E /* ECChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		379FFA201B680BD70096CD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379FFA211B680BD70096CD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		379FFA231B680BD70096CD4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		379FFA261B680BD70096CD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		379FFA281B680BD70096CD4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		379FFA2B1B680BD70096CD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		379FFA311B680BD70096CD4E /* ECChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		379FFA361B680BD70096CD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379FFA371B680BD70096CD4E /* ECChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECChatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379FFA191B680BD70096CD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379FFA2E1B680BD70096CD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379FFA131B680BD70096CD4E = {
+			isa = PBXGroup;
+			children = (
+				379FFA1E1B680BD70096CD4E /* ECChat */,
+				379FFA341B680BD70096CD4E /* ECChatTests */,
+				379FFA1D1B680BD70096CD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		379FFA1D1B680BD70096CD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379FFA1C1B680BD70096CD4E /* ECChat.app */,
+				379FFA311B680BD70096CD4E /* ECChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379FFA1E1B680BD70096CD4E /* ECChat */ = {
+			isa = PBXGroup;
+			children = (
+				379FFA211B680BD70096CD4E /* AppDelegate.swift */,
+				379FFA231B680BD70096CD4E /* ViewController.swift */,
+				379FFA251B680BD70096CD4E /* Main.storyboard */,
+				379FFA281B680BD70096CD4E /* Images.xcassets */,
+				379FFA2A1B680BD70096CD4E /* LaunchScreen.xib */,
+				379FFA1F1B680BD70096CD4E /* Supporting Files */,
+			);
+			path = ECChat;
+			sourceTree = "<group>";
+		};
+		379FFA1F1B680BD70096CD4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				379FFA201B680BD70096CD4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		379FFA341B680BD70096CD4E /* ECChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				379FFA371B680BD70096CD4E /* ECChatTests.swift */,
+				379FFA351B680BD70096CD4E /* Supporting Files */,
+			);
+			path = ECChatTests;
+			sourceTree = "<group>";
+		};
+		379FFA351B680BD70096CD4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				379FFA361B680BD70096CD4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379FFA1B1B680BD70096CD4E /* ECChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379FFA3B1B680BD70096CD4E /* Build configuration list for PBXNativeTarget "ECChat" */;
+			buildPhases = (
+				379FFA181B680BD70096CD4E /* Sources */,
+				379FFA191B680BD70096CD4E /* Frameworks */,
+				379FFA1A1B680BD70096CD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECChat;
+			productName = ECChat;
+			productReference = 379FFA1C1B680BD70096CD4E /* ECChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		379FFA301B680BD70096CD4E /* ECChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379FFA3E1B680BD70096CD4E /* Build configuration list for PBXNativeTarget "ECChatTests" */;
+			buildPhases = (
+				379FFA2D1B680BD70096CD4E /* Sources */,
+				379FFA2E1B680BD70096CD4E /* Frameworks */,
+				379FFA2F1B680BD70096CD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379FFA331B680BD70096CD4E /* PBXTargetDependency */,
+			);
+			name = ECChatTests;
+			productName = ECChatTests;
+			productReference = 379FFA311B680BD70096CD4E /* ECChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379FFA141B680BD70096CD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Melvin Tu";
+				TargetAttributes = {
+					379FFA1B1B680BD70096CD4E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					379FFA301B680BD70096CD4E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 379FFA1B1B680BD70096CD4E;
+					};
+				};
+			};
+			buildConfigurationList = 379FFA171B680BD70096CD4E /* Build configuration list for PBXProject "ECChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 379FFA131B680BD70096CD4E;
+			productRefGroup = 379FFA1D1B680BD70096CD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379FFA1B1B680BD70096CD4E /* ECChat */,
+				379FFA301B680BD70096CD4E /* ECChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379FFA1A1B680BD70096CD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379FFA271B680BD70096CD4E /* Main.storyboard in Resources */,
+				379FFA2C1B680BD70096CD4E /* LaunchScreen.xib in Resources */,
+				379FFA291B680BD70096CD4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379FFA2F1B680BD70096CD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379FFA181B680BD70096CD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379FFA241B680BD70096CD4E /* ViewController.swift in Sources */,
+				379FFA221B680BD70096CD4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379FFA2D1B680BD70096CD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379FFA381B680BD70096CD4E /* ECChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		379FFA331B680BD70096CD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379FFA1B1B680BD70096CD4E /* ECChat */;
+			targetProxy = 379FFA321B680BD70096CD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		379FFA251B680BD70096CD4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379FFA261B680BD70096CD4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		379FFA2A1B680BD70096CD4E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379FFA2B1B680BD70096CD4E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		379FFA391B680BD70096CD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		379FFA3A1B680BD70096CD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		379FFA3C1B680BD70096CD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ECChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		379FFA3D1B680BD70096CD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ECChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		379FFA3F1B680BD70096CD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ECChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECChat.app/ECChat";
+			};
+			name = Debug;
+		};
+		379FFA401B680BD70096CD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ECChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECChat.app/ECChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379FFA171B680BD70096CD4E /* Build configuration list for PBXProject "ECChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379FFA391B680BD70096CD4E /* Debug */,
+				379FFA3A1B680BD70096CD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379FFA3B1B680BD70096CD4E /* Build configuration list for PBXNativeTarget "ECChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379FFA3C1B680BD70096CD4E /* Debug */,
+				379FFA3D1B680BD70096CD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		379FFA3E1B680BD70096CD4E /* Build configuration list for PBXNativeTarget "ECChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379FFA3F1B680BD70096CD4E /* Debug */,
+				379FFA401B680BD70096CD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379FFA141B680BD70096CD4E /* Project object */;
+}
