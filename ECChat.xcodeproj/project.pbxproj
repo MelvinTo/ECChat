@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F56F43984745BFA5E32B9A8 /* Pods_ECChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F3AFD92FFCF34240DA304C /* Pods_ECChat.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		379FFA221B680BD70096CD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FFA211B680BD70096CD4E /* AppDelegate.swift */; };
 		379FFA241B680BD70096CD4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FFA231B680BD70096CD4E /* ViewController.swift */; };
 		379FFA271B680BD70096CD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379FFA251B680BD70096CD4E /* Main.storyboard */; };
 		379FFA291B680BD70096CD4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379FFA281B680BD70096CD4E /* Images.xcassets */; };
 		379FFA2C1B680BD70096CD4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379FFA2A1B680BD70096CD4E /* LaunchScreen.xib */; };
 		379FFA381B680BD70096CD4E /* ECChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FFA371B680BD70096CD4E /* ECChatTests.swift */; };
+		379FFA421B680BE90096CD4E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379FFA411B680BE90096CD4E /* CoreLocation.framework */; };
+		379FFA441B680BEE0096CD4E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379FFA431B680BEE0096CD4E /* CoreTelephony.framework */; };
+		379FFA471B680C060096CD4E /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379FFA461B680C060096CD4E /* AVOSCloud.framework */; };
+		379FFA491B680C0D0096CD4E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379FFA481B680C0D0096CD4E /* MobileCoreServices.framework */; };
+		379FFA4B1B680C140096CD4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379FFA4A1B680C130096CD4E /* SystemConfiguration.framework */; };
+		37A555E21B680D28004F2B30 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A555E11B680D28004F2B30 /* libsqlite3.dylib */; };
+		37A555E41B680D46004F2B30 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A555E31B680D46004F2B30 /* libicucore.dylib */; };
+		37A555E61B687F0E004F2B30 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A555E51B687F0E004F2B30 /* AVOSCloudIM.framework */; };
+		37A555E81B6880B5004F2B30 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A555E71B6880B5004F2B30 /* UserListViewController.swift */; };
+		37A555EA1B6880C7004F2B30 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A555E91B6880C7004F2B30 /* MessageViewController.swift */; };
+		37A555EC1B693599004F2B30 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A555EB1B693599004F2B30 /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110AEB29EBB5B2D09C9B080F /* Pods-ECChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECChat/Pods-ECChat.release.xcconfig"; sourceTree = "<group>"; };
 		379FFA1C1B680BD70096CD4E /* ECChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379FFA201B680BD70096CD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		379FFA211B680BD70096CD4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,20 @@
 		379FFA311B680BD70096CD4E /* ECChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		379FFA361B680BD70096CD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		379FFA371B680BD70096CD4E /* ECChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECChatTests.swift; sourceTree = "<group>"; };
+		379FFA411B680BE90096CD4E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		379FFA431B680BEE0096CD4E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		379FFA461B680C060096CD4E /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		379FFA481B680C0D0096CD4E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		379FFA4A1B680C130096CD4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		37A555DE1B680CE1004F2B30 /* ECChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		37A555E11B680D28004F2B30 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		37A555E31B680D46004F2B30 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		37A555E51B687F0E004F2B30 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
+		37A555E71B6880B5004F2B30 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		37A555E91B6880C7004F2B30 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		37A555EB1B693599004F2B30 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		54CFC8A6DB0828DB3A10DD32 /* Pods-ECChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECChat/Pods-ECChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F3AFD92FFCF34240DA304C /* Pods_ECChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +70,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A555EC1B693599004F2B30 /* libc++.dylib in Frameworks */,
+				37A555E41B680D46004F2B30 /* libicucore.dylib in Frameworks */,
+				37A555E21B680D28004F2B30 /* libsqlite3.dylib in Frameworks */,
+				379FFA4B1B680C140096CD4E /* SystemConfiguration.framework in Frameworks */,
+				379FFA491B680C0D0096CD4E /* MobileCoreServices.framework in Frameworks */,
+				379FFA441B680BEE0096CD4E /* CoreTelephony.framework in Frameworks */,
+				37A555E61B687F0E004F2B30 /* AVOSCloudIM.framework in Frameworks */,
+				379FFA421B680BE90096CD4E /* CoreLocation.framework in Frameworks */,
+				379FFA471B680C060096CD4E /* AVOSCloud.framework in Frameworks */,
+				2F56F43984745BFA5E32B9A8 /* Pods_ECChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +96,11 @@
 		379FFA131B680BD70096CD4E = {
 			isa = PBXGroup;
 			children = (
+				379FFA451B680BF30096CD4E /* Frameworks */,
 				379FFA1E1B680BD70096CD4E /* ECChat */,
 				379FFA341B680BD70096CD4E /* ECChatTests */,
 				379FFA1D1B680BD70096CD4E /* Products */,
+				8496F823EFBD4BC13F7C941F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +118,13 @@
 			children = (
 				379FFA211B680BD70096CD4E /* AppDelegate.swift */,
 				379FFA231B680BD70096CD4E /* ViewController.swift */,
+				37A555E71B6880B5004F2B30 /* UserListViewController.swift */,
+				37A555E91B6880C7004F2B30 /* MessageViewController.swift */,
 				379FFA251B680BD70096CD4E /* Main.storyboard */,
 				379FFA281B680BD70096CD4E /* Images.xcassets */,
 				379FFA2A1B680BD70096CD4E /* LaunchScreen.xib */,
 				379FFA1F1B680BD70096CD4E /* Supporting Files */,
+				37A555DE1B680CE1004F2B30 /* ECChat-Bridging-Header.h */,
 			);
 			path = ECChat;
 			sourceTree = "<group>";
@@ -112,6 +154,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		379FFA451B680BF30096CD4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A555EB1B693599004F2B30 /* libc++.dylib */,
+				37A555E31B680D46004F2B30 /* libicucore.dylib */,
+				37A555E11B680D28004F2B30 /* libsqlite3.dylib */,
+				37A555E51B687F0E004F2B30 /* AVOSCloudIM.framework */,
+				379FFA4A1B680C130096CD4E /* SystemConfiguration.framework */,
+				379FFA481B680C0D0096CD4E /* MobileCoreServices.framework */,
+				379FFA461B680C060096CD4E /* AVOSCloud.framework */,
+				379FFA431B680BEE0096CD4E /* CoreTelephony.framework */,
+				379FFA411B680BE90096CD4E /* CoreLocation.framework */,
+				B0F3AFD92FFCF34240DA304C /* Pods_ECChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8496F823EFBD4BC13F7C941F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54CFC8A6DB0828DB3A10DD32 /* Pods-ECChat.debug.xcconfig */,
+				110AEB29EBB5B2D09C9B080F /* Pods-ECChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 379FFA3B1B680BD70096CD4E /* Build configuration list for PBXNativeTarget "ECChat" */;
 			buildPhases = (
+				B378920E077A1533B7FAB13E /* Check Pods Manifest.lock */,
 				379FFA181B680BD70096CD4E /* Sources */,
 				379FFA191B680BD70096CD4E /* Frameworks */,
 				379FFA1A1B680BD70096CD4E /* Resources */,
+				E25E60FF1093ED00BC52E71D /* Embed Pods Frameworks */,
+				B94AEFF6535BB0ACFEED045D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +278,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B378920E077A1533B7FAB13E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B94AEFF6535BB0ACFEED045D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECChat/Pods-ECChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25E60FF1093ED00BC52E71D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECChat/Pods-ECChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		379FFA181B680BD70096CD4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +333,8 @@
 			files = (
 				379FFA241B680BD70096CD4E /* ViewController.swift in Sources */,
 				379FFA221B680BD70096CD4E /* AppDelegate.swift in Sources */,
+				37A555EA1B6880C7004F2B30 /* MessageViewController.swift in Sources */,
+				37A555E81B6880B5004F2B30 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +461,56 @@
 		};
 		379FFA3C1B680BD70096CD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CFC8A6DB0828DB3A10DD32 /* Pods-ECChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ECChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"EnClouds\"",
+					"-framework",
+					"\"KTCenterFlowLayout\"",
+					"-framework",
+					"\"SwiftTryCatch\"",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ECChat/ECChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		379FFA3D1B680BD70096CD4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110AEB29EBB5B2D09C9B080F /* Pods-ECChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ECChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"EnClouds\"",
+					"-framework",
+					"\"KTCenterFlowLayout\"",
+					"-framework",
+					"\"SwiftTryCatch\"",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ECChat/ECChat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +567,7 @@
 				379FFA3D1B680BD70096CD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		379FFA3E1B680BD70096CD4E /* Build configuration list for PBXNativeTarget "ECChatTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +576,7 @@
 				379FFA401B680BD70096CD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ECChat.MessageViewController.sendText (ECChat.MessageViewController)(Swift.String) -&gt; ():MessageViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "message.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AVIMConversationQuery processOutCommand:callback:]:AVIMConversationQuery.m">
+      </ContextState>
+      <ContextState
+         contextName = "ECChat.MessageViewController.sendClicked (ECChat.MessageViewController)(Swift.AnyObject) -&gt; ():MessageViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "-[AVIMConversationQuery fetchCachedResultsForOutCommand:callback:]:AVIMConversationQuery.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
